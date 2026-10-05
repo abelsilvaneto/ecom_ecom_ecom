@@ -42,8 +42,8 @@ const login = async (req, res) => {
         })
 
     } catch (err) {
-        console.error('não foi possivel fazer o login',err)
-        res.status(500).json({message: 'não foi possivel fazer o login'})
+        console.error('não foi possivel fazer o login', err)
+        res.status(500).json({ message: 'não foi possivel fazer o login' })
     }
 }
 
